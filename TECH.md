@@ -1,30 +1,38 @@
-Plataforma
-TikTok Effect House
-Desarrollo
-Visual Scripting de Effect House
-JavaScript (opcional, solo para lógica básica de interacción)
-Assets
-Cancha de tenis simplificada (2D o 3D low complexity)
-Pelota de tenis básica (modelo o sprite)
-UI simple para marcador
-Efectos de partículas ligeros (tierra batida)
-Arquitectura General
-Entrada (Input)
-Cámara frontal del dispositivo
-Face / Head Tracking para detectar movimiento del usuario
-Lógica de Interacción
-Spawn simple de pelotas en intervalos
-Detección de “impacto” mediante posición de cabeza
-Sistema de puntuación básico (incremental)
-Progresión por rondas según score
-Salida (Output)
-Animación de impacto
-Marcador en pantalla
-Cambio de nivel de dificultad
-Pantalla final de resultado (victoria)
-Decisiones Técnicas
-Uso de Head Tracking nativo para maximizar compatibilidad y simplicidad de uso.
-Lógica sin backend (100% local en el dispositivo) para acelerar desarrollo y publicación.
-Mecánica tipo “Pong simplificado” para garantizar comprensión inmediata en contexto TikTok.
-Assets livianos (low-poly / sprites) para asegurar buen rendimiento en dispositivos móviles.
-Experiencia limitada a pocos segundos para alinearse con consumo rápido de contenido en TikTok.
+# Technical Specifications
+
+## Plataforma
+- TikTok Effect House
+
+## Desarrollo
+- Visual Scripting de Effect House
+- JavaScript opcional para lógica básica de interacción
+- Experiencia 100% local en el dispositivo
+
+## Assets
+- Cancha de tenis simplificada (2D o 3D de baja complejidad)
+- Pelota de tenis básica (modelo o sprite)
+- UI ligera para marcador
+- Efectos de partículas suaves (tierra batida)
+
+## Arquitectura
+### Entrada
+- Cámara frontal del dispositivo
+- Head Tracking nativo para detección de movimiento
+
+### Lógica
+- Spawn de pelotas en intervalos regulares
+- Detección de impacto basada en posición de cabeza
+- Sistema de puntuación incremental por acierto
+- Progresión de niveles según score
+
+### Salida
+- Animación de impacto al golpear la pelota
+- Marcador de score visible
+- Cambio de dificultad entre niveles
+- Pantalla final de victoria
+
+## Decisiones técnicas
+- Evitar backend para maximizar velocidad de desarrollo y compatibilidad
+- Mantener assets ligeros para buen rendimiento en móviles
+- Enfatizar una mecánica clara y comprensible en segundos
+- Priorizar compatibilidad con dispositivos de consumo masivo de TikTok

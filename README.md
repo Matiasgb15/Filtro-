@@ -1,8 +1,14 @@
 # Filtro-
-Desarrollar un filtro interactivo para TikTok inspirado en los valores que representa el tenis: resiliencia, esfuerzo, disciplina y superación constante.
 
-El usuario se convierte en un tenista  y debe superar una serie de desafíos que simbolizan el recorrido de un jugador a lo largo de un gran torneo. Con cada nivel, la dificultad aumenta
+Filtro interactivo para TikTok inspirado en los valores del tenis: resiliencia, esfuerzo, disciplina y superación constante.
 
-La experiencia busca demostrar que el tenis no se trata únicamente de ganar, sino de levantarse después de cada error, adaptarse a la presión y seguir luchando hasta el final. Al completar el recorrido, el usuario alcanza la instancia final del torneo y celebra su esfuerzo como campeón.
+El usuario se transforma en un tenista y enfrenta tres niveles de desafío que representan el recorrido de un jugador dentro de un gran torneo. En cada nivel la dificultad progresa y la experiencia enfatiza que el tenis es más que ganar: es levantarse después de cada error, adaptarse a la presión y seguir hasta el último punto.
 
-Esta activación está pensada para acompañar las dos semanas de competición de Roland-Garros, invitando a la comunidad a participar, compartir sus resultados y conectar con la esencia del torneo: la capacidad de superar obstáculos y mantenerse en juego hasta el último punto.
+La activación acompaña las dos semanas de Roland-Garros, invitando a la audiencia a participar, compartir su resultado y conectar con la esencia del torneo.
+
+## Objetivo
+- Crear una experiencia clara y rápida para TikTok
+- Reforzar los valores del tenis
+- Generar motivación competitiva y social dentro de la plataforma
+
+
