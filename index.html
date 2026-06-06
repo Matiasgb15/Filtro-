@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎾 PONG Roland-Garros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <!-- MENÚ PRINCIPAL -->
+        <div id="menu" class="screen active">
+            <img src="Assets/Logo_Roland-Garros.svg.png" alt="Roland-Garros" class="logo">
+            <h1>🎾 PONG ROLAND-GARROS</h1>
+            <p class="subtitle">Juega contra la máquina</p>
+            <p class="description">3 Niveles de dificultad progresiva</p>
+            <button id="startBtn" class="btn-primary">JUGAR</button>
+            <div class="info-box">
+                <p>💡 Controla el jugador (izquierda) con el mouse</p>
+                <p>🤖 La máquina responderá automáticamente</p>
+            </div>
+        </div>
+
+        <!-- PANTALLA DE JUEGO -->
+        <div id="gameScreen" class="screen hidden">
+            <canvas id="gameCanvas"></canvas>
+            <div class="hud">
+                <div class="score-panel">
+                    <div class="player-score">
+                        <span class="label">TÚ</span>
+                        <span id="playerScore" class="score">0</span>
+                    </div>
+                    <div class="level-info">
+                        <span id="levelText">NIVEL 1</span>
+                    </div>
+                    <div class="ai-score">
+                        <span id="aiScore" class="score">0</span>
+                        <span class="label">IA</span>
+                    </div>
+                </div>
+                <div class="instructions">
+                    <p id="instructions">Mueve el mouse arriba/abajo para controlar tu pala</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PANTALLA DE GAME OVER -->
+        <div id="gameOverScreen" class="screen hidden">
+            <div class="game-over-content">
+                <img src="Assets/Logo_Roland-Garros.svg.png" alt="Roland-Garros" class="logo-small">
+                <h1 id="gameOverTitle">GAME OVER</h1>
+                <div class="final-stats">
+                    <p>Tu puntuación: <span id="finalPlayerScore">0</span></p>
+                    <p>Puntuación IA: <span id="finalAiScore">0</span></p>
+                    <p>Nivel alcanzado: <span id="finalLevel">1</span></p>
+                </div>
+                <p id="gameOverMessage" class="message"></p>
+                <button id="restartBtn" class="btn-primary">VOLVER AL MENÚ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/facemesh@0.0.5/dist/facemesh.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
